@@ -16,6 +16,8 @@ including tests and is meant to be read in one sitting.
 
 ## Build and run
 
+Requires CMake 3.14+ and a C++17 compiler (tested with Apple clang).
+
 ```
 cmake -B build && cmake --build build
 ctest --test-dir build            # or ./build/fleet_tests for per-test output
